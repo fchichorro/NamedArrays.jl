@@ -18,7 +18,7 @@ sort of dimension-checking in certain matrix computations.
 
 In all other respects, a `NamedArray` should behave the same as the underlying `AbstractArray`.
 
-A `NamedArray` should adhere to the [interface definition](https://docs.julialang.org/en/latest/manual/interfaces/#man-interface-array-1) of an `AbstractArray` itself, if there are cases where this is not true, these should be considered bugs in the implementation of `NamedArrays`.
+A `NamedArray` should adhere to the [interface definition](https://docs.julialang.org/en/v1/manual/interfaces/#man-interface-array) of an `AbstractArray` itself, if there are cases where this is not true, these should be considered bugs in the implementation of `NamedArrays`.
 
 Synopsis
 --------
